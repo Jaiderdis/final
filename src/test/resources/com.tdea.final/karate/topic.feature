@@ -8,6 +8,6 @@ Feature: topic
 
   Scenario: read topics
     Given url 'http://localhost:8080/topic'
-    And param username = 'admin'
+    And param name = 'admin'
     When method get
     Then status 200
